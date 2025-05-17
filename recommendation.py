@@ -11,7 +11,10 @@ import time
 
 
 with st.sidebar:
-    groq_api_key=st.text_input("Groq API Key",value="",type="password")
+    groq_api_key = st.text_input("Groq API Key", value="", type="password")
+    if not groq_api_key:
+        st.error("⚠️ Please enter your GROQ_API_KEY to proceed.")
+        st.stop()  # Stop execution here if no key
     
 # Initialize embeddings and LLM
 embeddings = HuggingFaceEmbeddings(model_name='all-MiniLM-L6-v2')
