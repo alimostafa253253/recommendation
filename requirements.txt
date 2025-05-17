@@ -1,16 +1,6 @@
-# Streamlit for UI
-
-langchain
-langchain-core
-langchain-community
-langchain-groq
-langchain-huggingface
 streamlit
+langchain
+langchain-huggingface
 faiss-cpu
-transformers
-sentence-transformers
-accelerate
-huggingface-hub
 python-dotenv
-
-
+git+https://github.com/groq-ai/langchain-groq.git@main
