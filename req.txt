@@ -1,10 +1,29 @@
-streamlit
-langchain
-langchain-community
-langchain-core
-langchain-huggingface
-faiss-cpu
-transformers
-accelerate
-sentence-transformers
-langchain-groq
+# Streamlit for UI
+streamlit==1.35.0
+
+# LangChain ecosystem
+langchain==0.1.14
+langchain-core==0.1.40
+langchain-community==0.0.33
+langchain-groq==0.0.3
+langchain-huggingface==0.0.6
+
+# FAISS for vector DB
+faiss-cpu==1.8.0
+
+# Hugging Face embeddings & models
+transformers==4.40.0
+sentence-transformers==2.7.0
+accelerate==0.30.0
+huggingface-hub==0.22.2
+
+# Other utils
+python-dotenv==1.0.1
+
+# To handle documents and chunking
+unstructured==0.12.6
+pdfminer.six==20231228  # Required by unstructured
+
+# Required for safe execution of langchain prompts
+tiktoken==0.6.0
+
