@@ -1,0 +1,10 @@
+streamlit
+langchain
+langchain-community
+langchain-core
+langchain-huggingface
+faiss-cpu
+transformers
+accelerate
+sentence-transformers
+langchain-groq
