@@ -11,5 +11,7 @@ sentence-transformers
 accelerate
 huggingface-hub
 python-dotenv
+git+https://github.com/groq-ai/langchain-groq.git@main#egg=langchain_groq
+
 
 
