@@ -3,4 +3,4 @@ langchain
 langchain-huggingface
 faiss-cpu
 python-dotenv
-git+https://github.com/groq-ai/langchain-groq.git@main
+langchain-groq
