@@ -1,0 +1,16 @@
+# Streamlit for UI
+
+langchain
+langchain-core
+langchain-community
+langchain-groq
+langchain-huggingface
+streamlit
+faiss-cpu
+transformers
+sentence-transformers
+accelerate
+huggingface-hub
+python-dotenv
+
+
